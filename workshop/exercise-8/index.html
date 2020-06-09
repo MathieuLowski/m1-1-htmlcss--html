@@ -1,1 +1,57 @@
 <!-- ...crickets... -->
+<h1>Registration Form</h1>
+<form action="results.html" method="GET">
+    <div>
+        <label for="username">Username </label>
+        <input name="username" id="username" required value="name">
+        <label for="password">Password </label>
+        <input type="password" name="password" id="password" value="password">
+    </div>
+    <div>
+        <label for="email">Email </label>
+        <input type="email" name="email" id="email">
+    </div>
+    <div>
+        <p>Wich taxi do you require?</p>
+        <div>
+            <input type="radio" id="car" name="vehicule">
+            <label for="car">Car</label> 
+        </div>
+        <div>
+            <input type="radio" id="van" name="vehicule">
+            <label for="van">Van</label>
+        </div>
+        <div>
+            <input type="radio" id="tuktuk" name="vehicule">
+            <label for="tuktuk">Tuk Tuk</label>
+        </div>
+    </div>
+        <p>Extras</p>
+        <div>
+            <input type="checkbox" id="extras" name="babyseat" value="babyseat">
+            <label for="babyseat"> Baby Seat</label>
+        </div>
+        <div>
+            <input type="checkbox" id="extras" name="wheelChairAccess" value="wheelChairAccess">
+            <label for="wheelChairAccess"> Wheel Chair Access</label>
+        </div>
+        <div>
+            <input type="checkbox" id="extras" name="stockTip" value="stockTip">
+            <label for="stockTip"> Stock Tip</label>
+        </div>
+        <div>
+       <label for="pickup">Pickup </label>
+       <select name="pickup" id="pickup">
+        <option value="select one">Select one</option>
+        <option value="taxioffice">Taxi office</option>
+        <option value="townhall">Town hall</option>
+        <option value="wellguess">We'll Guess</option>
+       </select>
+    </div>
+       <label for="special">Special</label>
+       <textarea name="special" rows="4" cols="50" id="special"></textarea>
+    <div>
+        <button type="submit">Submit</button>
+    
+</div>
+</form>
